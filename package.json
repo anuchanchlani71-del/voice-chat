@@ -1,0 +1,33 @@
+{
+  "name": "voice-chat-friends-backend",
+  "version": "1.0.0",
+  "description": "Backend API service for Voice Chat & Friends Platform (Phase 1 MVP - MongoDB)",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node src/server.js",
+    "seed": "node src/seed/seedAdmin.js",
+    "seed:demo": "node src/seed/demoSeed.js",
+    "test": "node tests/testAdminAuth.js"
+  },
+  "dependencies": {
+    "mongoose": "^8.2.1",
+    "multer": "^2.4.0",
+    "socket.io": "^4.8.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "socket.io-client": "^4.8.4"
+  },
+  "keywords": [
+    "voice-chat",
+    "admin-backend",
+    "express",
+    "auth",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Voice Chat & Friends Team",
+  "license": "ISC",
+  "type": "commonjs"
+}
